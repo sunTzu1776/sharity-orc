@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Sharity detect ticket</string>
+    <string name="ocr_header">Clique &quot;Detect Text&quot; pour scanner le ticket</string>
+    <string name="read_text">Scanner le ticket</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Référence ticket capturée</string>
+    <string name="ocr_failure">Pas de référence capturée</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+</resources>

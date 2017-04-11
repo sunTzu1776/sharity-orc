@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.google.android.gms.samples.vision.ocrreader.MainActivity"
+                android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Scannez votre ticket"
+        android:id="@+id/status_message"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2bf750"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/text_value"
+        android:layout_below="@+id/status_message"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp"
+        android:layout_alignEnd="@+id/status_message"
+        android:textColor="#2bf750"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_text"
+        android:id="@+id/read_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_focus"
+        android:id="@+id/auto_focus"
+        android:layout_above="@+id/read_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp"
+        android:checked="true"
+        android:textColor="#19ef7a"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_flash"
+        android:id="@+id/use_flash"
+        android:layout_alignTop="@+id/auto_focus"
+        android:layout_alignEnd="@+id/text_value"
+        android:checked="false"
+        android:textColor="#19ef7a"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donner"
+        android:id="@+id/server"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/read_text"
+        android:layout_toEndOf="@+id/read_text"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ligue contre le cancer"
+        android:id="@+id/ligue"
+        android:layout_below="@+id/text_value"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="association des paralysés de France"
+        android:id="@+id/apf"
+        android:layout_below="@+id/ligue"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Valentin Haüy"
+        android:id="@+id/valentin"
+        android:layout_below="@+id/apf"
+        android:layout_alignLeft="@+id/apf"
+        android:layout_alignStart="@+id/apf"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/green"
+        android:text="Association green"
+        android:layout_below="@+id/valentin"
+        android:layout_alignLeft="@+id/valentin"
+        android:layout_alignStart="@+id/valentin"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/icon"
+        android:layout_toStartOf="@+id/read_text"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_below="@+id/status_message"
+        android:layout_alignRight="@+id/auto_focus"
+        android:layout_alignEnd="@+id/auto_focus"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/carrefour"
+        android:layout_below="@+id/status_message"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manuel"
+        android:id="@+id/manuel"
+        android:layout_alignTop="@+id/read_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/email"
+        android:layout_above="@+id/read_text"
+        android:layout_toRightOf="@+id/read_text"
+        android:layout_alignRight="@+id/server"
+        android:layout_alignEnd="@+id/server"/>
+
+
+</RelativeLayout>

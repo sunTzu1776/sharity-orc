@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sinpa/sharity/android-vision/visionSamples/ocr-reader/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/sinpa/sharity/android-vision/visionSamples/ocr-reader/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/sinpa/sharity/android-vision/visionSamples/ocr-reader/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/md_nav_back.png",
+        "source": "/Users/sinpa/sharity/android-vision/visionSamples/ocr-reader/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.4.2/res/drawable-ldpi-v4/md_nav_back.png"
+    }
+]
